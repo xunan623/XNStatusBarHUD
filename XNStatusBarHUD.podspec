@@ -12,15 +12,10 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author             = { "xunan623" => "xunan623@outlook.com" }
 
-  # s.platform     = :ios, "5.0"
+  s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/xunan623/XNStatusBarHUD.git", :tag => s.version }
 
-  s.source_files  = "XNStatusBarHUD/"
-  s.exclude_files = "Classes/Exclude"
-
-
-  s.resource  = "XNStatusBarHUD/XNStatusBarHUD.bundle/**/*.png"
-
-
+  s.source_files  = "XNStatusBarHUD"
+  s.resource  = "XNStatusBarHUD/XNStatusBarHUD.bundle/*.png"
 
 end
