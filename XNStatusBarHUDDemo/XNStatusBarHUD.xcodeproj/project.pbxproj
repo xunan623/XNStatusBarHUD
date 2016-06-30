@@ -11,10 +11,10 @@
 		71187D731D242A5D007E64BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71187D721D242A5D007E64BE /* AppDelegate.m */; };
 		71187D7B1D242A5D007E64BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71187D7A1D242A5D007E64BE /* Assets.xcassets */; };
 		71187D7E1D242A5D007E64BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71187D7C1D242A5D007E64BE /* LaunchScreen.storyboard */; };
-		71187D891D242A74007E64BE /* XNStatusBarHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 71187D861D242A74007E64BE /* XNStatusBarHUD.bundle */; };
-		71187D8A1D242A74007E64BE /* XNStatusBarHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 71187D881D242A74007E64BE /* XNStatusBarHUD.m */; };
 		71187D8C1D242A8A007E64BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71187D8B1D242A8A007E64BE /* Main.storyboard */; };
 		71187D8F1D242A96007E64BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71187D8E1D242A96007E64BE /* ViewController.m */; };
+		71F62E871D24B4AD0074CEB9 /* XNStatusBarHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 71F62E841D24B4AD0074CEB9 /* XNStatusBarHUD.bundle */; };
+		71F62E881D24B4AD0074CEB9 /* XNStatusBarHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F62E861D24B4AD0074CEB9 /* XNStatusBarHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,12 +25,12 @@
 		71187D7A1D242A5D007E64BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71187D7D1D242A5D007E64BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71187D7F1D242A5D007E64BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		71187D861D242A74007E64BE /* XNStatusBarHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = XNStatusBarHUD.bundle; sourceTree = "<group>"; };
-		71187D871D242A74007E64BE /* XNStatusBarHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XNStatusBarHUD.h; sourceTree = "<group>"; };
-		71187D881D242A74007E64BE /* XNStatusBarHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XNStatusBarHUD.m; sourceTree = "<group>"; };
 		71187D8B1D242A8A007E64BE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		71187D8D1D242A96007E64BE /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		71187D8E1D242A96007E64BE /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		71F62E841D24B4AD0074CEB9 /* XNStatusBarHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = XNStatusBarHUD.bundle; sourceTree = "<group>"; };
+		71F62E851D24B4AD0074CEB9 /* XNStatusBarHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XNStatusBarHUD.h; sourceTree = "<group>"; };
+		71F62E861D24B4AD0074CEB9 /* XNStatusBarHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XNStatusBarHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +63,7 @@
 		71187D6D1D242A5D007E64BE /* XNStatusBarHUD */ = {
 			isa = PBXGroup;
 			children = (
-				71187D851D242A74007E64BE /* XNStatusBarHUD */,
+				71F62E831D24B4AD0074CEB9 /* XNStatusBarHUD */,
 				71187D711D242A5D007E64BE /* AppDelegate.h */,
 				71187D721D242A5D007E64BE /* AppDelegate.m */,
 				71187D8D1D242A96007E64BE /* ViewController.h */,
@@ -85,14 +85,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		71187D851D242A74007E64BE /* XNStatusBarHUD */ = {
+		71F62E831D24B4AD0074CEB9 /* XNStatusBarHUD */ = {
 			isa = PBXGroup;
 			children = (
-				71187D861D242A74007E64BE /* XNStatusBarHUD.bundle */,
-				71187D871D242A74007E64BE /* XNStatusBarHUD.h */,
-				71187D881D242A74007E64BE /* XNStatusBarHUD.m */,
+				71F62E841D24B4AD0074CEB9 /* XNStatusBarHUD.bundle */,
+				71F62E851D24B4AD0074CEB9 /* XNStatusBarHUD.h */,
+				71F62E861D24B4AD0074CEB9 /* XNStatusBarHUD.m */,
 			);
-			path = XNStatusBarHUD;
+			name = XNStatusBarHUD;
+			path = ../../XNStatusBarHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,7 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71187D7E1D242A5D007E64BE /* LaunchScreen.storyboard in Resources */,
-				71187D891D242A74007E64BE /* XNStatusBarHUD.bundle in Resources */,
+				71F62E871D24B4AD0074CEB9 /* XNStatusBarHUD.bundle in Resources */,
 				71187D7B1D242A5D007E64BE /* Assets.xcassets in Resources */,
 				71187D8C1D242A8A007E64BE /* Main.storyboard in Resources */,
 			);
@@ -169,7 +170,7 @@
 				71187D731D242A5D007E64BE /* AppDelegate.m in Sources */,
 				71187D701D242A5D007E64BE /* main.m in Sources */,
 				71187D8F1D242A96007E64BE /* ViewController.m in Sources */,
-				71187D8A1D242A74007E64BE /* XNStatusBarHUD.m in Sources */,
+				71F62E881D24B4AD0074CEB9 /* XNStatusBarHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +311,7 @@
 				71187D841D242A5D007E64BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
